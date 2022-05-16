@@ -4,7 +4,7 @@ import ProjectList from "../components/portfolio/ProjectList";
 
 const Portfolio = () => {
   return (
-    <div>
+    <div className="portfolio">
       <Navigation></Navigation>
       <ProjectList></ProjectList>
     </div>

@@ -12,7 +12,7 @@ class Project extends Component {
   };
 
   render() {
-    let { name, languagesIcons, source, info, picture } = this.props.items;
+    let { name, languagesIcons, source, info, picture } = this.props.item;
     return (
       <div className="project">
         <div className="icons">
@@ -42,7 +42,7 @@ class Project extends Component {
                 </div>
               </div>
               <p className="text">{info}</p>
-              <div className="button return" onClick={this.handleInfos}>
+              <div className="button return" onClick={this.handleInfo}>
                 Retourner sur la page
               </div>
             </div>
